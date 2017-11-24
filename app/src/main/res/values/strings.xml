@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Protectic</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_first_tab">Базовый курс</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_second_tab">Средний курс</string>
+    <string name="title_activity_third_tab">Продвинутый курс</string>
+    <string name="advices">Возрастные особенности поведения детей в Интернете.</string>
+    <string name="category1">Дети от 7 до 10 лет:</string>
+    <string name="category2">Дети от 10 до 13 лет:</string>
+    <string name="category3">Дети в возрасте 14-17 лет:</string>
+    <string name="advice1">Приучите детей посещать только те сайты, которые Вы разрешили.\n
+                            Используйте программные средства блокировки нежелательного материала.\n
+                            Научите детей советоваться с Вами при раскрытии личной информации.\n
+                            Требуйте от детей ничего не скачивать из Интернета без Вашего одобрения.\n
+                            Не разрешайте в этом возрасте пользоваться средствами мгновенного обмена сообщениями.\n
+                            Беседуйте с детьми об их друзьях в Интернет.\n
+                            Приучите детей сообщать Вам, если их что-то встревожило в сети.\n</string>
+    <string name="advice2">Создайте ребенку собственную учетную запись с ограниченными правами.\n
+                            Используйте средства фильтрации нежелательного материала.\n
+                            Напоминайте детям о конфиденциальности личной информации.\n
+                            Приучите детей спрашивать разрешение при скачивании программ или файлов из Интернета.\n
+                            Поощряйте детей сообщать Вам, если их что-то тревожит или смущает в Интернете.\n
+                            Настаивайте на том, чтобы дети позволяли Вам знакомиться с их электронной почтой.\n
+                            Расскажите детям об ответственном и достойном поведении в Интернете.\n</string>
+    <string name="advice3">Контролируйте, какими чатами и досками объявлений пользуются дети.\n
+                            Настаивайте, чтобы Ваши дети никогда не соглашались на личные встречи с друзьями из Интернета.\n
+                            Напоминайте детям о конфиденциальности информации.\n
+                            Помогите им защититься от спама.\n
+                            Предостерегите Ваших детей от использования Интернета для хулиганства.\n
+                            Убедитесь, что подростки советуются с Вами перед покупкой или продажей чего-либо через Интернет.\n
+                            Обсудите с подростками азартные игры и их возможный риск.</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="menu">Меню</string>
+    <string name="start">Пройти</string>
+    <string name="test1c2">Осторожно, вирус!</string>
+    <string name="t1c2question1">1. Что является основным каналом распространения компьютерных вирусов? </string>
+    <string name="t1c2q1answer1">Веб-страницы </string>
+    <string name="t1c2q1answer2">Электронная почта  </string>
+    <string name="t1c2q1answer3">Флеш-накопители (флешки) </string>
+
+    <string name="t1c2question2">2. Для предотвращения заражения компьютера вирусами следует: </string>
+    <string name="t1c2q2answer1">Не пользоваться Интернетом  </string>
+    <string name="t1c2q2answer2">Устанавливать и обновлять антивирусные средства   </string>
+    <string name="t1c2q2answer3">Не чихать и не кашлять рядом с компьютером  </string>
+
+    <string name="t1c2question3">3. Если вирус обнаружен, следует:  </string>
+    <string name="t1c2q3answer1">Удалить его и предотвратить дальнейшее заражение  </string>
+    <string name="t1c2q3answer2">Установить какую разновидность имеет вирус    </string>
+    <string name="t1c2q3answer3">Выяснить как он попал на компьютер   </string>
+
+    <string name="t1c2question4">4. Что не дает хакерам проникать в компьютер и просматривать файлы и документы:   </string>
+    <string name="t1c2q4answer1">Применение брандмауэра   </string>
+    <string name="t1c2q4answer2">Обновления операционной системы    </string>
+    <string name="t1c2q4answer3">Антивирусная программа   </string>
+
+    <string name="t1c2question5">5. Какое из следующих действий - незаконное?</string>
+    <string name="t1c2q5answer1">Уничтожение компьютерных вирусов    </string>
+    <string name="t1c2q5answer2">Создание и распространение компьютерных вирусов и вредоносных программ     </string>
+    <string name="t1c2q5answer3">Установка программного обеспечения для защиты компьютера    </string>
+</resources>

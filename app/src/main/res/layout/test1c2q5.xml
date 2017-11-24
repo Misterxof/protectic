@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/shore">
+
+    <Button
+        android:text="@string/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="200dp"
+        android:onClick="onClickButton5" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/t1c2question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1c2question5"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radioGroup1c2q5">
+
+            <RadioButton
+                android:text="@string/t1c2q5answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1c2q5answer1"
+                android:textSize="16sp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="@string/t1c2q5answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer1c2q5"
+                android:textSize="16sp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="@string/t1c2q5answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1c2q5answer3"
+                android:textSize="16sp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</RelativeLayout>

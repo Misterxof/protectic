@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Базовый курс">
+            <menu>
+               <item
+                   android:id="@+id/story"
+                   android:icon="@drawable/ic_book_black_24dp"
+                   android:title="История"/>
+                <item
+                    android:id="@+id/test1"
+                    android:icon="@drawable/ic_content_paste_black_24dp"
+                    android:title="Тесты"/>
+                <item
+                    android:id="@+id/games1"
+                    android:icon="@drawable/ic_games_black_24dp"
+                    android:title="Игры"/>
+            </menu>
+        </item>
+        <item android:title="Средний курс" >
+            <menu>
+                <item
+                    android:id="@+id/materials1"
+                    android:icon="@drawable/ic_folder_black_24dp"
+                    android:title="Материалы"/>
+                <item
+                    android:id="@+id/test2"
+                    android:icon="@drawable/ic_content_paste_black_24dp"
+                    android:title="Тесты"/>
+                <item
+                    android:id="@+id/games2"
+                    android:icon="@drawable/ic_games_black_24dp"
+                    android:title="Игры"/>
+            </menu>
+        </item>
+
+        <item android:title="Продвинутый курс" >
+            <menu>
+                <item
+                    android:id="@+id/materials2"
+                    android:icon="@drawable/ic_folder_black_24dp"
+                    android:title="Материалы"/>
+                <item
+                    android:id="@+id/test3"
+                    android:icon="@drawable/ic_content_paste_black_24dp"
+                    android:title="Тесты"/>
+                <item
+                    android:id="@+id/article"
+                    android:icon="@drawable/ic_http_black_24dp"
+                    android:title="Статьи"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
