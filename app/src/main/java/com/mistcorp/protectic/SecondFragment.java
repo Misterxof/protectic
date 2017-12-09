@@ -13,12 +13,12 @@ import android.widget.Toast;
 
 public class SecondFragment extends Fragment {
 
-    TextView tv;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.third_tab_first_fragment, container, false);
-        tv = (TextView)v.findViewById(R.id.textView2);
+
 
         Button button = (Button) v.findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
